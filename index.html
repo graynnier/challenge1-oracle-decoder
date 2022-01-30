@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Encriptador de George Cardozo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1 class="titulo" style="color:#FFFFFF">* Challenge 1 Encriptador ONE-ALURA *</h1>
+
+  <main class="main">
+    <section class="form box">
+      <form action="">
+        <label for="input-texto"> Ingrese solo letras minúsculas, sin acento.. </label>
+        <input class="text-input1" type="text" name="input-texto" id="input-texto" placeholder="Ingrese mensaje aqui">
+        <input class="btn" type="button" onclick = "capturaFrase()"  value="encriptar!" id="btn-encriptar">
+        <input class="btn" type="button" onclick = "desencriptar_frase()" value="desencriptar!" id="btn-desencriptar">
+      </form>
+    </section>
+
+    <section class="msg box">
+      <h3 id="titulo">Mensaje encriptado/desencriptado:</h3>
+      <input class="text-input2" type="text" name = "muestra-texto" id="Mostrar" placeholder="Lea y copie aqui..." autocomplete="off" >
+      <input class="btn" type="button" onclick = "copiar()"  value="copiar" id="btn-copy"></button>
+    </section>
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
+<div class="footer">
+  <p>Autor: George R. Cardozo. Enero 2022.</p>
+</div>
+</html>
